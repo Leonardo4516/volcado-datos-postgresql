@@ -1,0 +1,22 @@
+{
+    "name": "PostgreSQL World DB Normalization",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "postgres_db",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                "mtxr.sqltools",
+                "mtxr.sqltools-driver-pg",
+                "cweijan.vscode-database-client2"
+            ]
+        }
+    },
+    "forwardPorts": [
+        5435,
+        8083
+    ]
+}

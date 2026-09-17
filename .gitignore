@@ -1,0 +1,15 @@
+# Entorno y variables sensibles
+.env
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Datos persistentes locales de Docker
+postgres_world_data/
+pgadmin_world_data/
